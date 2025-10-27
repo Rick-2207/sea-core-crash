@@ -1,0 +1,21 @@
+{
+  "name": "sea-core-shootingbase",
+  "version": "1.0.0",
+  "description": "Shooting base game core",
+  "main": "dist/sea-core-shootingbase.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "webpack --config webpack.config.js && node generate_dts.js",
+    "build-all": "./build.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dts-bundle-generator": "^9.5.1",
+    "terser-webpack-plugin": "^5.3.14",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "webpack": "^5.99.5",
+    "webpack-cli": "^6.0.1"
+  }
+}
